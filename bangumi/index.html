@@ -1,0 +1,553 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>追番列表 | wangzhuo1024</title><meta name="keywords" content="wangzhuo, wangzhuo1024, hexo, blog, 个人博客 ,生活 ,学习"><meta name="author" content="wangzhuo"><meta name="copyright" content="wangzhuo"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="追番列表"><meta name="application-name" content="追番列表"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="website"><meta property="og:title" content="追番列表"><meta property="og:url" content="http://wangzhuo1024.github.io/bangumi/index.html"><meta property="og:site_name" content="wangzhuo1024"><meta property="og:description" content=".bangumi-tabs{margin-bottom:15px;margin-top:15px}.bangumi-tab{padding:5px}a.bangumi-tab{text-decoration:none}.bangumi-active{background:#657b83;color:"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="http://wangzhuo1024.github.io/Avatar.png"><meta property="article:author" content="wangzhuo"><meta property="article:tag" content="wangzhuo, wangzhuo1024, hexo, blog, 个人博客 ,生活 ,学习"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="http://wangzhuo1024.github.io/Avatar.png"><meta name="description" content=".bangumi-tabs{margin-bottom:15px;margin-top:15px}.bangumi-tab{padding:5px}a.bangumi-tab{text-decoration:none}.bangumi-active{background:#657b83;color:"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="http://wangzhuo1024.github.io/bangumi/"><link rel="preconnect" href="//cdn.cbd.int"/><link rel="preconnect" href="//www.clarity.ms"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css" media="print" onload="this.media='all'"><script>(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "sdpf9kc20b");</script><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  peoplecanvas: undefined,
+  postHeadAiDescription: undefined,
+  diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎肥来！"},
+  LA51: undefined,
+  greetingBox: {"enable":true,"default":"晚上好👋","list":[{"greeting":"晚安😴","startTime":0,"endTime":5},{"greeting":"早上好鸭👋, 祝你一天好心情！","startTime":6,"endTime":9},{"greeting":"上午好👋, 状态很好，鼓励一下～","startTime":10,"endTime":10},{"greeting":"11点多啦, 在坚持一下就吃饭啦～","startTime":11,"endTime":11},{"greeting":"午安👋","startTime":12,"endTime":14},{"greeting":"🌈充实的一天辛苦啦！","startTime":14,"endTime":18},{"greeting":"19点喽, 奖励一顿丰盛的大餐吧🍔。","startTime":19,"endTime":19},{"greeting":"晚上好👋, 在属于自己的时间好好放松😌~","startTime":20,"endTime":24}]},
+  twikooEnvId: '',
+  commentBarrageConfig:undefined,
+  music_page_default: "nav_music",
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: true,
+  mainTone: undefined,
+  authorStatus: {"skills":["🤖️ 数码科技爱好者","🔍 分享与热心帮助"]},
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: {"limitDay":730,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: wangzhuo","link":"链接: ","source":"来源: wangzhuo1024","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: 'wangzhuo1024',
+  title: '追番列表',
+  postAI: '',
+  pageFillDescription: '想看在看已看首页上一页下一页尾页葬送的芙莉莲中配版全话番剧日本总播放万关注万硬币弹幕评分简介寿命逾千年的魔法使芙莉莲以曾经共同战胜魔王的勇者辛美尔之死为契机踏上了了解人类的旅途邂逅了同属勇者小队的僧侣海塔与战士艾泽分别培养出的菲伦与休塔尔克芙莉莲与二人一同前往灵魂安眠之地去往此那年那兔那些事儿第七季全话国创中国大陆总播放万关注万硬币万弹幕万评分简介本季第七季以志愿军兔退伍老兵和后代的视角讲述种花家制造业从无到有从落后到追赶最终形成完备的自有体系的故事葬送的芙莉莲全话番剧日本总播放亿关注万硬币万弹幕万评分简介寿命逾千年的魔法使芙莉莲以曾经共同战胜魔王的勇者辛美尔之死为契机踏上了了解人类的旅途邂逅了同属勇者小队的僧侣海塔与战士艾泽分别培养出的菲伦与休塔尔克芙莉莲与二人一同前往灵魂安眠之地去往此中国奇谭国创中国大陆总播放万关注万硬币弹幕评分简介动画短片集中国奇谭由上美影上影元哔哩哔哩陈廖宇工作室联合出品陈廖宇担任总导演作品汇集位导演创作部风格迥异的短片第二部的故事将走入烟火人间在延续用中国方式讲中国故事的基础我的三体第四季全话国创中国大陆总播放万关注万硬币万弹幕万评分简介为应对即将入侵地球的三体人航天博士程心主持了对三体舰队主动侦查的阶梯计划将身患绝症的云天明捐赠的大脑送入太空得知云天明一直深爱自己并送给自己一颗星星程心后悔莫及进入冬眠两百年后程心苏醒并迷宫饭全话番剧日本总播放亿关注万硬币万弹幕万评分简介迷宫饭是吃还是被吃这是一个问题在迷宫深处莱欧斯眼看着红龙吃掉了妹妹自己在将死之际回到了地面尽管他想要马上再次挑战迷宫但是钱和粮食都被留在了最深处面对妹妹可能会被消化掉的间谍过家家第二季全话番剧日本总播放亿关注万硬币万弹幕万评分简介每个人都有不可告人的一面这是一个世界各国均暗地里进行激烈情报战的时代奥斯塔尼亚与维斯达利斯的冷战状态已经持续数十年黄昏是维斯达利斯情报局奥斯塔尼海绵宝宝第十季中文配音全话番剧美国总播放万关注万硬币万弹幕万评分简介海绵宝宝的故事情节主要围绕着主角海绵宝宝和他的好朋友派大星邻居章鱼哥上司蟹老板等人展开场景设定于太平洋海底一座被称为比奇堡的城市海绵宝宝是方块形的黄色海绵住在比基尼海滩裤头村比奇海绵宝宝第一季第九季中文配音全话番剧美国总播放亿关注万硬币万弹幕万评分简介海绵宝宝是方块形的黄色海绵住在比基尼海滩裤头村比奇堡的一个菠萝里他的宠物是一只会猫猫叫的海蜗牛小蜗海绵宝宝喜欢捕捉水母职业是蟹堡王里的头号厨师孤独摇滚全话番剧日本总播放亿关注万硬币万弹幕万评分简介绰号小孤独的后藤独是一个喜爱吉他的孤独少女经常在家里独自弹奏吉他但因为一些事情加入了伊地知虹夏领衔的纽带乐队不敢在他人面前演奏的后藤能否成为一个出色的乐队成员呢间谍过家家全话番剧日本总播放亿关注万硬币万弹幕万评分简介每个人都有不可告人的一面这是一个世界各国均暗地里进行激烈情报战的时代奥斯塔尼亚与维斯达利斯的冷战状态已经持续数十年黄昏是维斯达利斯情报局奥斯塔尼那年那兔那些事儿第一季全话国创中国大陆总播放亿关注万硬币万弹幕万评分简介本片讲述了一群兔子是怎么从种花家一穷二白的时候通过自身的努力与奋斗蹬了鹰酱一脸血并且养殖出了自己的大蘑菇发展成为蓝星最强五流氓之一的故事本片故事纯属虚构如有雷同纯属巧合本片漫画更新频繁魔女之旅全话番剧日本总播放亿关注万硬币万弹幕万评分简介某个地方有一位旅人她的名字是伊蕾娜是一位年纪轻轻就成了魔法使中最上位魔女的天才因为向往着幼时读过的旅行故事随意地进行着漫长的旅行在这个广阔的世界里自由地漫步接触着形形色色有趣的人关喵什么事全话国创中国大陆总播放万关注万硬币万弹幕万评分简介一位在创作路上灵感逐渐枯竭的漫画家少年出门寻找灵感时无意间收养了两只宠物猫取名皇皇狗取名巴扎黑虽然两个小家伙经常给少年带来很多麻烦但是同时也收获了两份陪伴和爱虽然它们是一猫一狗但是少年中国奇谭全话国创中国大陆总播放亿关注万硬币万弹幕万评分简介动画短片集中国奇谭由八个植根于中国传统文化的独立的故事组成小妖怪的夏天鹅鹅鹅林林乡村巴士带走了王孩儿和神仙小满飞鸟与鱼小卖部玉兔故事纵览古今展望首页上一页下一页尾页我的三体之罗辑传全话国创中国大陆总播放万关注万硬币万弹幕万评分简介我的三体系列是一部粉丝自制的动画番剧改编自刘慈欣的科幻小说三体第二季我的三体罗辑传共集讲述人类在科技水平被锁死的情况下选出面壁者试图抵抗三体人的侵略的故事截止到首页上一页下一页尾页前端页面交互脚本实现标签页切换和分页加载功能包含自定义操作方法标签页点击事件处理以及通过异步加载更多数据的分页功能分页功能实现脚本提供首页上一页下一页末页等导航功能实现了页码显示页面内容切换图片懒加载等功能每页显示条数据支持自定义预加载数据量配置',
+  isPost: false,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2025-08-06 20:01:18',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap"><meta name="generator" content="Hexo 7.3.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="/Avatar.png"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="page" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><div class="back-home-button"><i class="anzhiyufont anzhiyu-icon-grip-vertical"></i><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" href="https://wangzhuo1024.github.io/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div></div></div><a id="site-name" href="/" accesskey="h"><div class="title">wangzhuo1024</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a><div id="he-plugin-simple"></div><script>var WIDGET = {
+  "CONFIG": {
+    "modules": "0124",
+    "background": "2",
+    "tmpColor": "FFFFFF",
+    "tmpSize": "16",
+    "cityColor": "FFFFFF",
+    "citySize": "16",
+    "aqiColor": "E8D87B",
+    "aqiSize": "16",
+    "weatherIconSize": "24",
+    "alertIconSize": "18",
+    "padding": "10px 10px 10px 10px",
+    "shadow": "0",
+    "language": "auto",
+    "borderRadius": "20",
+    "fixed": "true",
+    "vertical": "top",
+    "horizontal": "left",
+    "left": "20",
+    "top": "7.1",
+    "key": "df245676fb434a0691ead1c63341cd94"
+  }
+}
+</script><link rel="stylesheet" href="https://widget.qweather.net/simple/static/css/he-simple.css?v=1.4.0"/><script src="https://widget.qweather.net/simple/static/js/he-simple.js?v=1.4.0"></script></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/link/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 友人帐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/comments/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/?id=8894576098&amp;server=netease"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐馆</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/bangumi/"><i class="anzhiyufont anzhiyu-icon-bilibili faa-tada" style="font-size: 0.9em;"></i><span> 追番页</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/air-conditioner/"><i class="anzhiyufont anzhiyu-icon-fan faa-tada" style="font-size: 0.9em;"></i><span> 小空调</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 闲言碎语</span></a></li><li><a class="site-page child faa-parent animated-hover" href="javascript:toRandomPost()"><i class="anzhiyufont anzhiyu-icon-shoe-prints1 faa-tada" style="font-size: 0.9em;"></i><span> 随便逛逛</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" alt="微信" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" alt="支付宝" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 1.05rem; color: rgb(79, 1, 121);">测试<sup>1</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/07/"><span class="card-archive-list-date">七月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav></header><main id="blog-container"><div class="layout" id="content-inner"><div id="page"><h1 class="page-title">追番列表</h1><div id="article-container"><style>.bangumi-tabs{margin-bottom:15px;margin-top:15px}.bangumi-tab{padding:5px}a.bangumi-tab{text-decoration:none}.bangumi-active{background:#657b83;color:#fff}.bangumi-item{position:relative;clear:both;padding:10px 0;border-bottom:1px solid #ddd;min-height:180px}@media screen and (max-width:600px){.bangumi-item{width:100%}}.bangumi-picture{position:absolute;left:0;top:10px;width:110px}.bangumi-picture img{margin:10px 0}.bangumi-info{padding-left:120px;margin-top:10px;min-height:160px}.bangumi-meta{font-size:12px;padding-right:10px;height:45px}.bangumi-summary{font-size:12px;margin-top:10px}.bangumi-summary>p{word-break:break-all;text-overflow:ellipsis;overflow:hidden;height:72px;white-space:normal;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;line-clamp:3}.bangumi-summary>p.has-bangumi-progress{height:48px;-webkit-line-clamp:2;line-clamp:2}.bangumi-comments{font-size:12px}.bangumi-pagination{margin-top:15px;text-align:center;margin-bottom:10px}.bangumi-button{padding:5px}.bangumi-button:hover{background:#657b83;color:#fff}.bangumi-hide{display:none}.bangumi-show{display:block}.bangumi-title{font-size:18px;font-weight:700}.bangumi-title a{line-height:1;text-decoration:none}.bangumi-info-items{font-size:12px;color:#2fd8d8;padding-top:10px;line-height:1;float:left;width:100%;height:45px}.bangumi-info-item{display:inline-block;width:13%;border-right:1px solid #2fd8d8;text-align:center;height:34px}.bangumi-info-label{display:block;line-height:12px}.bangumi-info-item em{display:block;padding-top:6px;line-height:17px;font-style:normal;font-weight:700}.bangumi-info-total{padding-top:11px;display:block;line-height:12px;font-weight:700}.bangumi-info-item-score{border-right:1px solid #0000;width:50px}.bangumi-info-label-em{color:transparent;opacity:0;visibility:hidden;line-height:6px!important;padding:0!important}@media (max-width:650px){.bangumi-coin,.bangumi-type{display:none}.bangumi-info-item{width:16%}}@media (max-width:590px){.bangumi-danmaku,.bangumi-wish{display:none}.bangumi-info-item{width:19%}}@media (max-width:520px){.bangumi-doing,.bangumi-play{display:none}.bangumi-info-item{width:24%}}@media (max-width:480px){.bangumi-collect,.bangumi-follow,.bangumi-info-item-follow{display:none}.bangumi-info-item{width:30%}}@media (max-width:400px){.bangumi-area,.bangumi-tag{display:none}.bangumi-info-item{width:45%}}@media (max-width:270px){.bangumi-info-item-score{display:none}.bangumi-info-item{width:100%;border-right:none}}.bangumi-my-comments{border:1px dashed #8f8f8f;padding:3px;border-radius:5px}.bangumi-starstop{background:url(https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.7.9/lib/img/rate_star_2x.png) 100% 100%/10px 19.5px repeat-x;height:10px;width:50px;display:inline-block;float:none}.bangumi-starlight{background:url(https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.7.9/lib/img/rate_star_2x.png) 0 0/10px 19.5px repeat-x;height:10px;display:block;width:100%}.bangumi-starlight.stars1{width:5px}.bangumi-starlight.stars2{width:10px}.bangumi-starlight.stars3{width:15px}.bangumi-starlight.stars4{width:20px}.bangumi-starlight.stars5{width:25px}.bangumi-starlight.stars6{width:30px}.bangumi-starlight.stars7{width:35px}.bangumi-starlight.stars8{width:40px}.bangumi-starlight.stars9{width:45px}.bangumi-starlight.stars10{width:50px}.bangumi-info .bangumi-progress{width:100%;height:24px;background-color:#f2f2f2;border-radius:5px;overflow:hidden;font-size:16px;text-align:center;position:relative}.bangumi-info .bangumi-progress-text{z-index:100;position:relative;color:#3c4858;line-height:24px}.bangumi-info .bangumi-progress .progress-bar{z-index:50;height:100%;background-color:#007bffad;border-radius:5px;position:absolute;top:0}</style><div class="bangumi-tabs"><a class="bangumi-tab" id="bangumi-tab1" href="javascript:;" rel="external" target="_self" onclick="return false">想看
+(0)</a><a class="bangumi-tab" id="bangumi-tab2" href="javascript:;" rel="external" target="_self" onclick="return false">在看
+(15)</a><a class="bangumi-tab" id="bangumi-tab3" href="javascript:;" rel="external" target="_self" onclick="return false">已看
+(1)</a></div><div><div id="bangumi-item1"><div class="bangumi-pagination"><a class="bangumi-button bangumi-firstpage" href="javascript:;" target="_self" onclick="return false">首页</a><a class="bangumi-button bangumi-previouspage" href="javascript:;" target="_self" onclick="return false">上一页</a><span class="bangumi-pagenum">2 / 3</span><a class="bangumi-button bangumi-nextpage" href="javascript:;" target="_self" onclick="return false">下一页</a><a class="bangumi-button bangumi-lastpage" href="javascript:;" target="_self" onclick="return false">尾页</a></div></div><div id="bangumi-item2"><div class="bangumi-item"><div class="bangumi-picture"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/image/faf410ab7dd2fbf811dbacfbca9003da0a3903d0.png" referrerpolicy="no-referrer" width="110" style="width:110px;margin:20px auto;"/></div><div class="bangumi-info"><div class="bangumi-title"><a target="_blank" href="https://www.bilibili.com/bangumi/media/md26650111/">葬送的芙莉莲 中配版</a></div><div class="bangumi-meta"><span class="bangumi-info-items"><span class="bangumi-info-item"><span class="bangumi-info-total">全28话</span><em class="bangumi-info-label-em">0</em></span><span class="bangumi-info-item bangumi-area"><span class="bangumi-info-label">番剧</span><em>日本</em></span><span class="bangumi-info-item bangumi-play"><span class="bangumi-info-label">总播放</span><em>228.3 万</em></span><span class="bangumi-info-item bangumi-follow"><span class="bangumi-info-label">关注</span><em>466.0 万</em></span><span class="bangumi-info-item bangumi-coin"><span class="bangumi-info-label">硬币</span><em>4112</em></span><span class="bangumi-info-item bangumi-danmaku"><span class="bangumi-info-label">弹幕</span><em>8189</em></span><span class="bangumi-info-item bangumi-info-item-score"><span class="bangumi-info-label">评分</span><em>8.3</em></span></span></div><div class="bangumi-comments" style="margin-top: 10px;"><p>简介：寿命逾千年的魔法使芙莉莲，以曾经共同战胜魔王的勇者辛美尔之死为契机，踏上了了解人类的旅途。
+
+邂逅了同属勇者小队的僧侣海塔与战士艾泽分别培养出的菲伦与休塔尔克，芙莉莲与二人一同前往灵魂安眠之地。去往此...</p></div></div></div><div class="bangumi-item"><div class="bangumi-picture"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/image/3136f672b657d0a9eacd7a508d8a70f1967ca771.png" referrerpolicy="no-referrer" width="110" style="width:110px;margin:20px auto;"/></div><div class="bangumi-info"><div class="bangumi-title"><a target="_blank" href="https://www.bilibili.com/bangumi/media/md24491383/">那年那兔那些事儿 第七季</a></div><div class="bangumi-meta"><span class="bangumi-info-items"><span class="bangumi-info-item"><span class="bangumi-info-total">全12话</span><em class="bangumi-info-label-em">0</em></span><span class="bangumi-info-item bangumi-area"><span class="bangumi-info-label">国创</span><em>中国大陆</em></span><span class="bangumi-info-item bangumi-play"><span class="bangumi-info-label">总播放</span><em>1424.5 万</em></span><span class="bangumi-info-item bangumi-follow"><span class="bangumi-info-label">关注</span><em>517.8 万</em></span><span class="bangumi-info-item bangumi-coin"><span class="bangumi-info-label">硬币</span><em>16.9 万</em></span><span class="bangumi-info-item bangumi-danmaku"><span class="bangumi-info-label">弹幕</span><em>13.4 万</em></span><span class="bangumi-info-item bangumi-info-item-score"><span class="bangumi-info-label">评分</span><em>9.5</em></span></span></div><div class="bangumi-comments" style="margin-top: 10px;"><p>简介：本季（第七季）以志愿军兔退伍老兵和后代的视角，讲述种花家制造业从无到有，从落后到追赶，最终形成完备的自有体系的故事。...</p></div></div></div><div class="bangumi-item"><div class="bangumi-picture"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/image/f3ebb500b701a387f5abde67516c5c96bbd2faff.png" referrerpolicy="no-referrer" width="110" style="width:110px;margin:20px auto;"/></div><div class="bangumi-info"><div class="bangumi-title"><a target="_blank" href="https://www.bilibili.com/bangumi/media/md21087073/">葬送的芙莉莲</a></div><div class="bangumi-meta"><span class="bangumi-info-items"><span class="bangumi-info-item"><span class="bangumi-info-total">全28话</span><em class="bangumi-info-label-em">0</em></span><span class="bangumi-info-item bangumi-area"><span class="bangumi-info-label">番剧</span><em>日本</em></span><span class="bangumi-info-item bangumi-play"><span class="bangumi-info-label">总播放</span><em>3.8 亿</em></span><span class="bangumi-info-item bangumi-follow"><span class="bangumi-info-label">关注</span><em>500.8 万</em></span><span class="bangumi-info-item bangumi-coin"><span class="bangumi-info-label">硬币</span><em>182.9 万</em></span><span class="bangumi-info-item bangumi-danmaku"><span class="bangumi-info-label">弹幕</span><em>119.7 万</em></span><span class="bangumi-info-item bangumi-info-item-score"><span class="bangumi-info-label">评分</span><em>9.9</em></span></span></div><div class="bangumi-comments" style="margin-top: 10px;"><p>简介：寿命逾千年的魔法使芙莉莲，以曾经共同战胜魔王的勇者辛美尔之死为契机，踏上了了解人类的旅途。
+
+邂逅了同属勇者小队的僧侣海塔与战士艾泽分别培养出的菲伦与休塔尔克，芙莉莲与二人一同前往灵魂安眠之地。去往此...</p></div></div></div><div class="bangumi-item"><div class="bangumi-picture"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/image/65df4d5e583daae8f3f9da9b243bf770255111a4.jpg" referrerpolicy="no-referrer" width="110" style="width:110px;margin:20px auto;"/></div><div class="bangumi-info"><div class="bangumi-title"><a target="_blank" href="https://www.bilibili.com/bangumi/media/md23776068/">中国奇谭2</a></div><div class="bangumi-meta"><span class="bangumi-info-items"><span class="bangumi-info-item"><span class="bangumi-info-total">-</span><em class="bangumi-info-label-em">0</em></span><span class="bangumi-info-item bangumi-area"><span class="bangumi-info-label">国创</span><em>中国大陆</em></span><span class="bangumi-info-item bangumi-play"><span class="bangumi-info-label">总播放</span><em>170.6 万</em></span><span class="bangumi-info-item bangumi-follow"><span class="bangumi-info-label">关注</span><em>582.9 万</em></span><span class="bangumi-info-item bangumi-coin"><span class="bangumi-info-label">硬币</span><em>6802</em></span><span class="bangumi-info-item bangumi-danmaku"><span class="bangumi-info-label">弹幕</span><em>888</em></span><span class="bangumi-info-item bangumi-info-item-score"><span class="bangumi-info-label">评分</span><em>-</em></span></span></div><div class="bangumi-comments" style="margin-top: 10px;"><p>简介：动画短片集《中国奇谭2》由上美影、上影元、哔哩哔哩、陈廖宇工作室联合出品，陈廖宇担任总导演，作品汇集12位导演，创作9部风格迥异的短片。第二部的故事将走入烟火人间，在延续“用中国方式讲中国故事”的基础...</p></div></div></div><div class="bangumi-item"><div class="bangumi-picture"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/image/b4f3f6b8165663d1ca238c901ad9f4321b0a5cbc.png" referrerpolicy="no-referrer" width="110" style="width:110px;margin:20px auto;"/></div><div class="bangumi-info"><div class="bangumi-title"><a target="_blank" href="https://www.bilibili.com/bangumi/media/md21083515/">我的三体 第四季</a></div><div class="bangumi-meta"><span class="bangumi-info-items"><span class="bangumi-info-item"><span class="bangumi-info-total">全9话</span><em class="bangumi-info-label-em">0</em></span><span class="bangumi-info-item bangumi-area"><span class="bangumi-info-label">国创</span><em>中国大陆</em></span><span class="bangumi-info-item bangumi-play"><span class="bangumi-info-label">总播放</span><em>5960.1 万</em></span><span class="bangumi-info-item bangumi-follow"><span class="bangumi-info-label">关注</span><em>284.7 万</em></span><span class="bangumi-info-item bangumi-coin"><span class="bangumi-info-label">硬币</span><em>43.9 万</em></span><span class="bangumi-info-item bangumi-danmaku"><span class="bangumi-info-label">弹幕</span><em>29.5 万</em></span><span class="bangumi-info-item bangumi-info-item-score"><span class="bangumi-info-label">评分</span><em>9.6</em></span></span></div><div class="bangumi-comments" style="margin-top: 10px;"><p>简介：为应对即将入侵地球的三体人，航天博士程心主持了对三体舰队主动侦查的阶梯计划，将身患绝症的云天明捐赠的大脑送入太空。得知云天明一直深爱自己并送给自己一颗星星，程心后悔莫及，进入冬眠。两百年后，程心苏醒并...</p></div></div></div><div class="bangumi-item"><div class="bangumi-picture"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/image/8cf02211c3fefa4eccc7307ca4fab404707d0cf7.png" referrerpolicy="no-referrer" width="110" style="width:110px;margin:20px auto;"/></div><div class="bangumi-info"><div class="bangumi-title"><a target="_blank" href="https://www.bilibili.com/bangumi/media/md21174614/">迷宫饭</a></div><div class="bangumi-meta"><span class="bangumi-info-items"><span class="bangumi-info-item"><span class="bangumi-info-total">全24话</span><em class="bangumi-info-label-em">0</em></span><span class="bangumi-info-item bangumi-area"><span class="bangumi-info-label">番剧</span><em>日本</em></span><span class="bangumi-info-item bangumi-play"><span class="bangumi-info-label">总播放</span><em>2.5 亿</em></span><span class="bangumi-info-item bangumi-follow"><span class="bangumi-info-label">关注</span><em>304.8 万</em></span><span class="bangumi-info-item bangumi-coin"><span class="bangumi-info-label">硬币</span><em>60.5 万</em></span><span class="bangumi-info-item bangumi-danmaku"><span class="bangumi-info-label">弹幕</span><em>86.2 万</em></span><span class="bangumi-info-item bangumi-info-item-score"><span class="bangumi-info-label">评分</span><em>9.8</em></span></span></div><div class="bangumi-comments" style="margin-top: 10px;"><p>简介：迷宫饭。是“吃”，还是“被吃”，这是一个问题。
+在迷宫深处，莱欧斯眼看着红龙吃掉了妹妹，自己在将死之际回到了地面。
+尽管他想要马上再次挑战迷宫，但是钱和粮食都被留在了最深处。
+面对妹妹可能会被消化掉的...</p></div></div></div><div class="bangumi-item"><div class="bangumi-picture"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/image/a524567f86ec21368731f6dc283f66bd1bd0af92.png" referrerpolicy="no-referrer" width="110" style="width:110px;margin:20px auto;"/></div><div class="bangumi-info"><div class="bangumi-title"><a target="_blank" href="https://www.bilibili.com/bangumi/media/md21086686/">间谍过家家 第二季</a></div><div class="bangumi-meta"><span class="bangumi-info-items"><span class="bangumi-info-item"><span class="bangumi-info-total">全12话</span><em class="bangumi-info-label-em">0</em></span><span class="bangumi-info-item bangumi-area"><span class="bangumi-info-label">番剧</span><em>日本</em></span><span class="bangumi-info-item bangumi-play"><span class="bangumi-info-label">总播放</span><em>1.7 亿</em></span><span class="bangumi-info-item bangumi-follow"><span class="bangumi-info-label">关注</span><em>1256.1 万</em></span><span class="bangumi-info-item bangumi-coin"><span class="bangumi-info-label">硬币</span><em>37.1 万</em></span><span class="bangumi-info-item bangumi-danmaku"><span class="bangumi-info-label">弹幕</span><em>40.6 万</em></span><span class="bangumi-info-item bangumi-info-item-score"><span class="bangumi-info-label">评分</span><em>9.7</em></span></span></div><div class="bangumi-comments" style="margin-top: 10px;"><p>简介：每个人都有不可告人的一面。
+
+这是一个世界各国均暗地里进行激烈情报战的时代。奥斯塔尼亚（Ostania）与维斯达利斯（Westalis）的冷战状态已经持续数十年。
+
+&lt;黄昏&gt;是维斯达利斯情报局奥斯塔尼...</p></div></div></div><div class="bangumi-item"><div class="bangumi-picture"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/image/d82fd29e165c6b0f9a03f5d9b4f3ab2900754d20.jpg" referrerpolicy="no-referrer" width="110" style="width:110px;margin:20px auto;"/></div><div class="bangumi-info"><div class="bangumi-title"><a target="_blank" href="https://www.bilibili.com/bangumi/media/md21175781/">海绵宝宝 第十季 中文配音</a></div><div class="bangumi-meta"><span class="bangumi-info-items"><span class="bangumi-info-item"><span class="bangumi-info-total">全9话</span><em class="bangumi-info-label-em">0</em></span><span class="bangumi-info-item bangumi-area"><span class="bangumi-info-label">番剧</span><em>美国</em></span><span class="bangumi-info-item bangumi-play"><span class="bangumi-info-label">总播放</span><em>1708.8 万</em></span><span class="bangumi-info-item bangumi-follow"><span class="bangumi-info-label">关注</span><em>186.3 万</em></span><span class="bangumi-info-item bangumi-coin"><span class="bangumi-info-label">硬币</span><em>1.0 万</em></span><span class="bangumi-info-item bangumi-danmaku"><span class="bangumi-info-label">弹幕</span><em>1.6 万</em></span><span class="bangumi-info-item bangumi-info-item-score"><span class="bangumi-info-label">评分</span><em>8.8</em></span></span></div><div class="bangumi-comments" style="margin-top: 10px;"><p>简介：《海绵宝宝》的故事情节主要围绕着主角海绵宝宝和他的好朋友派大星、邻居章鱼哥、上司蟹老板等人展开，场景设定于太平洋海底，一座被称为比奇堡的城市。 海绵宝宝是方块形的黄色海绵，住在比基尼海滩（裤头村、比奇...</p></div></div></div><div class="bangumi-item"><div class="bangumi-picture"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/image/fa3b505694f6960e727a4660dde6dec38a9a7bf2.png" referrerpolicy="no-referrer" width="110" style="width:110px;margin:20px auto;"/></div><div class="bangumi-info"><div class="bangumi-title"><a target="_blank" href="https://www.bilibili.com/bangumi/media/md28236719/">海绵宝宝  第一季～第九季 中文配音</a></div><div class="bangumi-meta"><span class="bangumi-info-items"><span class="bangumi-info-item"><span class="bangumi-info-total">全161话</span><em class="bangumi-info-label-em">0</em></span><span class="bangumi-info-item bangumi-area"><span class="bangumi-info-label">番剧</span><em>美国</em></span><span class="bangumi-info-item bangumi-play"><span class="bangumi-info-label">总播放</span><em>6.3 亿</em></span><span class="bangumi-info-item bangumi-follow"><span class="bangumi-info-label">关注</span><em>211.1 万</em></span><span class="bangumi-info-item bangumi-coin"><span class="bangumi-info-label">硬币</span><em>78.0 万</em></span><span class="bangumi-info-item bangumi-danmaku"><span class="bangumi-info-label">弹幕</span><em>171.8 万</em></span><span class="bangumi-info-item bangumi-info-item-score"><span class="bangumi-info-label">评分</span><em>9.8</em></span></span></div><div class="bangumi-comments" style="margin-top: 10px;"><p>简介：海绵宝宝是方块形的黄色海绵，住在比基尼海滩（裤头村、比奇堡）的一个菠萝里，他的宠物是一只会“猫~猫~”叫的海蜗牛小蜗，海绵宝宝喜欢捕捉水母，职业是蟹堡王（The Krusty Krab）里的头号厨师。...</p></div></div></div><div class="bangumi-item"><div class="bangumi-picture"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/image/d9d6284e0919ecfda41981c1f9119f993db62935.jpg" referrerpolicy="no-referrer" width="110" style="width:110px;margin:20px auto;"/></div><div class="bangumi-info"><div class="bangumi-title"><a target="_blank" href="https://www.bilibili.com/bangumi/media/md28339735/">孤独摇滚！</a></div><div class="bangumi-meta"><span class="bangumi-info-items"><span class="bangumi-info-item"><span class="bangumi-info-total">全12话</span><em class="bangumi-info-label-em">0</em></span><span class="bangumi-info-item bangumi-area"><span class="bangumi-info-label">番剧</span><em>日本</em></span><span class="bangumi-info-item bangumi-play"><span class="bangumi-info-label">总播放</span><em>2.0 亿</em></span><span class="bangumi-info-item bangumi-follow"><span class="bangumi-info-label">关注</span><em>465.3 万</em></span><span class="bangumi-info-item bangumi-coin"><span class="bangumi-info-label">硬币</span><em>177.7 万</em></span><span class="bangumi-info-item bangumi-danmaku"><span class="bangumi-info-label">弹幕</span><em>95.8 万</em></span><span class="bangumi-info-item bangumi-info-item-score"><span class="bangumi-info-label">评分</span><em>9.9</em></span></span></div><div class="bangumi-comments" style="margin-top: 10px;"><p>简介：绰号“小孤独”的后藤独，是一个喜爱吉他的孤独少女。经常在家里独自弹奏吉他，但因为一些事情，加入了伊地知虹夏领衔的“纽带乐队”。不敢在他人面前演奏的后藤，能否成为一个出色的乐队成员呢……...</p></div></div></div><div class="bangumi-item"><div class="bangumi-picture"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/image/f50a08cc1562f2c1e933b656c00db3fcafd110e9.png" referrerpolicy="no-referrer" width="110" style="width:110px;margin:20px auto;"/></div><div class="bangumi-info"><div class="bangumi-title"><a target="_blank" href="https://www.bilibili.com/bangumi/media/md28237119/">间谍过家家</a></div><div class="bangumi-meta"><span class="bangumi-info-items"><span class="bangumi-info-item"><span class="bangumi-info-total">全25话</span><em class="bangumi-info-label-em">0</em></span><span class="bangumi-info-item bangumi-area"><span class="bangumi-info-label">番剧</span><em>日本</em></span><span class="bangumi-info-item bangumi-play"><span class="bangumi-info-label">总播放</span><em>8.5 亿</em></span><span class="bangumi-info-item bangumi-follow"><span class="bangumi-info-label">关注</span><em>1281.5 万</em></span><span class="bangumi-info-item bangumi-coin"><span class="bangumi-info-label">硬币</span><em>327.3 万</em></span><span class="bangumi-info-item bangumi-danmaku"><span class="bangumi-info-label">弹幕</span><em>337.6 万</em></span><span class="bangumi-info-item bangumi-info-item-score"><span class="bangumi-info-label">评分</span><em>9.7</em></span></span></div><div class="bangumi-comments" style="margin-top: 10px;"><p>简介：每个人都有不可告人的一面。
+
+这是一个世界各国均暗地里进行激烈情报战的时代。奥斯塔尼亚（Ostania）与维斯达利斯（Westalis）的冷战状态已经持续数十年。
+
+&lt;黄昏&gt;是维斯达利斯情报局奥斯塔尼...</p></div></div></div><div class="bangumi-item"><div class="bangumi-picture"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/ddb029703d0838000c3b7e2e39718a36dbbdcb77.jpg" referrerpolicy="no-referrer" width="110" style="width:110px;margin:20px auto;"/></div><div class="bangumi-info"><div class="bangumi-title"><a target="_blank" href="https://www.bilibili.com/bangumi/media/md1689/">那年那兔那些事儿 第一季</a></div><div class="bangumi-meta"><span class="bangumi-info-items"><span class="bangumi-info-item"><span class="bangumi-info-total">全12话</span><em class="bangumi-info-label-em">0</em></span><span class="bangumi-info-item bangumi-area"><span class="bangumi-info-label">国创</span><em>中国大陆</em></span><span class="bangumi-info-item bangumi-play"><span class="bangumi-info-label">总播放</span><em>2.6 亿</em></span><span class="bangumi-info-item bangumi-follow"><span class="bangumi-info-label">关注</span><em>334.4 万</em></span><span class="bangumi-info-item bangumi-coin"><span class="bangumi-info-label">硬币</span><em>180.3 万</em></span><span class="bangumi-info-item bangumi-danmaku"><span class="bangumi-info-label">弹幕</span><em>308.7 万</em></span><span class="bangumi-info-item bangumi-info-item-score"><span class="bangumi-info-label">评分</span><em>9.7</em></span></span></div><div class="bangumi-comments" style="margin-top: 10px;"><p>简介：本片讲述了一群兔子是怎么从种花家一穷二白的时候，通过自身的努力与奋斗，蹬了鹰酱一脸血，并且养殖出了自己的大蘑菇，发展成为蓝星最强五流氓之一的故事。本片故事纯属虚构，如有雷同，纯属巧合。本片漫画更新频繁...</p></div></div></div><div class="bangumi-item"><div class="bangumi-picture"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/image/09533e0b510630235326a818adabb6c64c1abce2.png" referrerpolicy="no-referrer" width="110" style="width:110px;margin:20px auto;"/></div><div class="bangumi-info"><div class="bangumi-title"><a target="_blank" href="https://www.bilibili.com/bangumi/media/md28229881/">魔女之旅</a></div><div class="bangumi-meta"><span class="bangumi-info-items"><span class="bangumi-info-item"><span class="bangumi-info-total">全12话</span><em class="bangumi-info-label-em">0</em></span><span class="bangumi-info-item bangumi-area"><span class="bangumi-info-label">番剧</span><em>日本</em></span><span class="bangumi-info-item bangumi-play"><span class="bangumi-info-label">总播放</span><em>1.4 亿</em></span><span class="bangumi-info-item bangumi-follow"><span class="bangumi-info-label">关注</span><em>473.6 万</em></span><span class="bangumi-info-item bangumi-coin"><span class="bangumi-info-label">硬币</span><em>122.8 万</em></span><span class="bangumi-info-item bangumi-danmaku"><span class="bangumi-info-label">弹幕</span><em>140.9 万</em></span><span class="bangumi-info-item bangumi-info-item-score"><span class="bangumi-info-label">评分</span><em>9.7</em></span></span></div><div class="bangumi-comments" style="margin-top: 10px;"><p>简介：某个地方有一位旅人，她的名字是伊蕾娜。
+是一位年纪轻轻就成了魔法使中最上位「魔女」的天才。
+因为向往着幼时读过的旅行故事，随意地进行着漫长的旅行。
+在这个广阔的世界里自由地漫步，接触着形形色色有趣的人...</p></div></div></div><div class="bangumi-item"><div class="bangumi-picture"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/image/2cd4f1e42b65e73cb1448791a9091a4a9de504df.png" referrerpolicy="no-referrer" width="110" style="width:110px;margin:20px auto;"/></div><div class="bangumi-info"><div class="bangumi-title"><a target="_blank" href="https://www.bilibili.com/bangumi/media/md28339927/">关喵什么事</a></div><div class="bangumi-meta"><span class="bangumi-info-items"><span class="bangumi-info-item"><span class="bangumi-info-total">全13话</span><em class="bangumi-info-label-em">0</em></span><span class="bangumi-info-item bangumi-area"><span class="bangumi-info-label">国创</span><em>中国大陆</em></span><span class="bangumi-info-item bangumi-play"><span class="bangumi-info-label">总播放</span><em>1833.7 万</em></span><span class="bangumi-info-item bangumi-follow"><span class="bangumi-info-label">关注</span><em>25.4 万</em></span><span class="bangumi-info-item bangumi-coin"><span class="bangumi-info-label">硬币</span><em>5.5 万</em></span><span class="bangumi-info-item bangumi-danmaku"><span class="bangumi-info-label">弹幕</span><em>1.6 万</em></span><span class="bangumi-info-item bangumi-info-item-score"><span class="bangumi-info-label">评分</span><em>9.8</em></span></span></div><div class="bangumi-comments" style="margin-top: 10px;"><p>简介：一位在创作路上灵感逐渐枯竭的漫画家少年，出门寻找灵感时无意间收养了两只宠物。猫取名皇皇，狗取名巴扎黑。虽然两个小家伙经常给少年带来很多麻烦，但是同时也收获了两份陪伴和爱。 虽然它们是一猫一狗，但是少年...</p></div></div></div><div class="bangumi-item"><div class="bangumi-picture"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/image/e9ad30dd6f8fa74df16c62de048e35dd5d7ffda1.png" referrerpolicy="no-referrer" width="110" style="width:110px;margin:20px auto;"/></div><div class="bangumi-info"><div class="bangumi-title"><a target="_blank" href="https://www.bilibili.com/bangumi/media/md28235401/">中国奇谭</a></div><div class="bangumi-meta"><span class="bangumi-info-items"><span class="bangumi-info-item"><span class="bangumi-info-total">全8话</span><em class="bangumi-info-label-em">0</em></span><span class="bangumi-info-item bangumi-area"><span class="bangumi-info-label">国创</span><em>中国大陆</em></span><span class="bangumi-info-item bangumi-play"><span class="bangumi-info-label">总播放</span><em>3.4 亿</em></span><span class="bangumi-info-item bangumi-follow"><span class="bangumi-info-label">关注</span><em>592.7 万</em></span><span class="bangumi-info-item bangumi-coin"><span class="bangumi-info-label">硬币</span><em>293.1 万</em></span><span class="bangumi-info-item bangumi-danmaku"><span class="bangumi-info-label">弹幕</span><em>76.8 万</em></span><span class="bangumi-info-item bangumi-info-item-score"><span class="bangumi-info-label">评分</span><em>9.9</em></span></span></div><div class="bangumi-comments" style="margin-top: 10px;"><p>简介：动画短片集《中国奇谭》由八个植根于中国传统文化的独立的故事组成：《小妖怪的夏天》、《鹅鹅鹅》、《林林》、《乡村巴士带走了王孩儿和神仙》、《小满》、《飞鸟与鱼》、《小卖部》、《玉兔》。故事纵览古今、展望...</p></div></div></div><div class="bangumi-pagination"><a class="bangumi-button bangumi-firstpage" href="javascript:;" target="_self" onclick="return false">首页</a><a class="bangumi-button bangumi-previouspage" href="javascript:;" target="_self" onclick="return false">上一页</a><span class="bangumi-pagenum">2 / 3</span><a class="bangumi-button bangumi-nextpage" href="javascript:;" target="_self" onclick="return false">下一页</a><a class="bangumi-button bangumi-lastpage" href="javascript:;" target="_self" onclick="return false">尾页</a></div></div><div id="bangumi-item3"><div class="bangumi-item"><div class="bangumi-picture"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/image/b2274c5efb1d7b8685cf8bdf3b347c42f1c7731f.jpg" referrerpolicy="no-referrer" width="110" style="width:110px;margin:20px auto;"/></div><div class="bangumi-info"><div class="bangumi-title"><a target="_blank" href="https://www.bilibili.com/bangumi/media/md28223558/">我的三体之罗辑传</a></div><div class="bangumi-meta"><span class="bangumi-info-items"><span class="bangumi-info-item"><span class="bangumi-info-total">全11话</span><em class="bangumi-info-label-em">0</em></span><span class="bangumi-info-item bangumi-area"><span class="bangumi-info-label">国创</span><em>中国大陆</em></span><span class="bangumi-info-item bangumi-play"><span class="bangumi-info-label">总播放</span><em>8464.4 万</em></span><span class="bangumi-info-item bangumi-follow"><span class="bangumi-info-label">关注</span><em>103.9 万</em></span><span class="bangumi-info-item bangumi-coin"><span class="bangumi-info-label">硬币</span><em>229.8 万</em></span><span class="bangumi-info-item bangumi-danmaku"><span class="bangumi-info-label">弹幕</span><em>87.7 万</em></span><span class="bangumi-info-item bangumi-info-item-score"><span class="bangumi-info-label">评分</span><em>9.9</em></span></span></div><div class="bangumi-comments" style="margin-top: 10px;"><p>简介：《我的三体》系列是一部粉丝自制的动画番剧，改编自刘慈欣的科幻小说《三体》。第二季《我的三体·罗辑传》共11集，讲述人类在科技水平被锁死的情况下，选出“面壁者”试图抵抗三体人的侵略的故事。截止到2018...</p></div></div></div><div class="bangumi-pagination"><a class="bangumi-button bangumi-firstpage" href="javascript:;" target="_self" onclick="return false">首页</a><a class="bangumi-button bangumi-previouspage" href="javascript:;" target="_self" onclick="return false">上一页</a><span class="bangumi-pagenum">2 / 3</span><a class="bangumi-button bangumi-nextpage" href="javascript:;" target="_self" onclick="return false">下一页</a><a class="bangumi-button bangumi-lastpage" href="javascript:;" target="_self" onclick="return false">尾页</a></div></div></div><script>window.hexoBilibiliBangumiOptions = {
+    bangumiLazyload: true,
+    show: 1
+}
+if (false) {
+    hexoBilibiliBangumiOptions.pugTemplate = ``;
+    hexoBilibiliBangumiOptions.pugOptions = {
+        loading: '',
+        metaColor: '',
+        type: 'bangumi',
+        color: '',
+        lazyload: true,
+        showMyComment: false,
+        lazyloadAttrName: '',
+        srcValue: '__image__'
+    }
+    hexoBilibiliBangumiOptions.pagenumsPre = [0,15,1];
+    hexoBilibiliBangumiOptions.pug = require('pug');
+}</script><script>"use strict";/*
+ * @Author       : HCLonely
+ * @Date         : 2024-09-11 15:40:57
+ * @LastEditTime : 2025-07-09 20:36:01
+ * @LastEditors  : HCLonely
+ * @FilePath     : /hexo-bilibili-bangumi/src/lib/templates/index.js
+ * @Description  : 前端页面交互脚本，实现标签页切换和分页加载功能。
+ *                 包含自定义DOM操作方法、标签页点击事件处理，以及
+ *                 通过AJAX异步加载更多数据的分页功能。
+ */(function(){function a(){this.classList.add("bangumi-active");let a=this.siblings();for(let b=0;b<a.length;b++)a[b].classList.remove("bangumi-active");// 显示对应板块
+const b=this.id.replace("tab","item"),c=document.getElementById(b);c.classList.remove("bangumi-hide"),c.classList.add("bangumi-show"),a=document.getElementById(b).siblings();for(let b=0;b<a.length;b++)a[b].classList.remove("bangumi-show"),a[b].classList.add("bangumi-hide")}Element.prototype.siblings=function(){const a=[],b=this.parentNode.children;for(let c=0;c<b.length;c++)b[c]!==this&&a.push(b[c]);return a};const b=document.getElementsByClassName("bangumi-tab");for(let c=0;c<b.length;c++)b[c].onclick=a,b[c].onclick.apply(b[c]);"undefined"!=typeof hexoBilibiliBangumiOptions.pagenumsPre&&axios.get(new URL("../bangumis.json",window.location.href)).then(a=>{if(a.data){const b={wantWatch:a.data.wantWatch.slice(10).map(a=>hexoBilibiliBangumiOptions.pug.render(hexoBilibiliBangumiOptions.pugTemplate,{item:a,...hexoBilibiliBangumiOptions.pugOptions})).join("\n"),watching:a.data.watching.slice(10).map(a=>hexoBilibiliBangumiOptions.pug.render(hexoBilibiliBangumiOptions.pugTemplate,{item:a,...hexoBilibiliBangumiOptions.pugOptions})).join("\n"),watched:a.data.watched.slice(10).map(a=>hexoBilibiliBangumiOptions.pug.render(hexoBilibiliBangumiOptions.pugTemplate,{item:a,...hexoBilibiliBangumiOptions.pugOptions})).join("\n")};document.querySelectorAll("#bangumi-item1>.bangumi-pagination")[0].insertAdjacentHTML("beforeBegin",b.wantWatch),document.querySelectorAll("#bangumi-item2>.bangumi-pagination")[0].insertAdjacentHTML("beforeBegin",b.watching),document.querySelectorAll("#bangumi-item3>.bangumi-pagination")[0].insertAdjacentHTML("beforeBegin",b.watched)}}),document.getElementsByClassName("bangumi-tab")[hexoBilibiliBangumiOptions.show].click()})();"use strict";/*
+ * @Author       : HCLonely
+ * @Date         : 2024-09-11 15:40:57
+ * @LastEditTime : 2025-07-09 20:36:29
+ * @LastEditors  : HCLonely
+ * @FilePath     : /hexo-bilibili-bangumi/src/lib/templates/pagination.js
+ * @Description  : 分页功能实现脚本，提供首页、上一页、下一页、末页等导航功能。
+ *                 实现了页码显示、页面内容切换、图片懒加载等功能，每页显示10条数据，
+ *                 支持自定义预加载数据量配置。
+ */(function(){var a=Math.ceil;function b(b,c){return`${b+1} / ${a(0==c.length/10?1:a(c.length/10))}`}function c(){const a=this.parentNode.siblings();g(a,0),this.parentNode.getElementsByClassName("bangumi-pagenum")[0].innerText=b(0,a)}function d(){const a=this.parentNode.siblings();let c=this.parentNode.getElementsByClassName("bangumi-pagenum")[0].innerText;c=c.substr(0,c.indexOf("/")-1),c=parseInt(c,10)-1,0<c&&c--,g(a,c),this.parentNode.getElementsByClassName("bangumi-pagenum")[0].innerText=b(c,a)}function e(){const c=this.parentNode.siblings();let d=this.parentNode.getElementsByClassName("bangumi-pagenum")[0].innerText;d=d.substr(0,d.indexOf("/")-1),d=parseInt(d,10)-1,d<a(c.length/10)-1&&d++,g(c,d),this.parentNode.getElementsByClassName("bangumi-pagenum")[0].innerText=b(d,c)}function f(){const c=this.parentNode.siblings();g(c,a(c.length/10)-1),this.parentNode.getElementsByClassName("bangumi-pagenum")[0].innerText=b(-1==a(c.length/10)-1?0:a(c.length/10)-1,c)}function g(a,b){for(let c=0;c<a.length;c++)if(Math.floor(c/10)===b){a[c].classList.remove("bangumi-hide");const[b]=a[c].getElementsByTagName("img");hexoBilibiliBangumiOptions.bangumiLazyload&&(b.src=b.getAttribute("data-src"))}else a[c].classList.add("bangumi-hide")}const h=document.getElementsByClassName("bangumi-firstpage"),j=document.getElementsByClassName("bangumi-previouspage"),k=document.getElementsByClassName("bangumi-nextpage"),l=document.getElementsByClassName("bangumi-lastpage"),m=document.getElementsByClassName("bangumi-pagenum");for(let b=0;b<h.length;b++){h[b].onclick=c,j[b].onclick=d,k[b].onclick=e,l[b].onclick=f;// set page num
+const g="undefined"==typeof hexoBilibiliBangumiOptions.pagenumsPre?m[b].parentNode.siblings().length:hexoBilibiliBangumiOptions.pagenumsPre[b]??m[b].parentNode.siblings().length;h[b].click(),m[b].innerText=`1 / ${0===a(g/10)?1:a(g/10)}`}})();</script></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info__sayhi" id="author-info__sayhi" onclick="anzhiyu.changeSayHelloText()"></div><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/Avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-status"><img class="g-status" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2021/01/15/3de5568861758.gif" alt="status"/></div></div><div class="author-info__description"><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">产品、设计、开发</b>相关的问题和看法。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">相信你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div></div><div class="author-info__bottom-group"><a class="author-info__bottom-group-left" href="/"><h1 class="author-info__name">wangzhuo</h1><div class="author-info__desc"></div></a><div class="card-info-social-icons is-center"><a class="social-icon faa-parent animated-hover" href="https://github.com/wangzhuo1024" target="_blank" title="Github"><i class="anzhiyufont anzhiyu-icon-github"></i></a><a class="social-icon faa-parent animated-hover" href="mailto:wz20100519@.outlook.com" target="_blank" title="Email"><i class="anzhiyufont anzhiyu-icon-envelope"></i></a></div></div></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bullhorn anzhiyu-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来看我的博客鸭~</div></div><div class="sticky_layout"><div class="card-widget"><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 1.05rem; color: rgb(196, 54, 151);">测试<sup>1</sup></a></div></div><hr/><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/07/"><span class="card-archive-list-date">七月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li></ul></div><hr/><div class="card-webinfo"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-item-title"><i class="anzhiyufont anzhiyu-icon-file-lines"></i><div class="item-name">文章总数 :</div></div><div class="item-count">3</div></div><div class="webinfo-item"><div class="webinfo-item-title"><i class="anzhiyufont anzhiyu-icon-stopwatch"></i><div class="item-name">建站天数 :</div></div><div class="item-count" id="runtimeshow" data-publishDate="2025-07-11T11:30:09.000Z"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></div></div><div class="webinfo-item"><div class="webinfo-item-title"><i class="anzhiyufont anzhiyu-icon-font"></i><div class="item-name">全站字数 :</div></div><div class="item-count">221</div></div><div class="webinfo-item"><div class="webinfo-item-title"><i class="anzhiyufont anzhiyu-icon-universal-access"></i><div class="item-name">总访客数 :</div></div><div class="item-count" id="busuanzi_value_site_uv"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></div></div><div class="webinfo-item"><div class="webinfo-item-title"><i class="anzhiyufont anzhiyu-icon-square-poll-vertical"></i><div class="item-name">总访问量 :</div></div><div class="item-count" id="busuanzi_value_site_pv"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></div></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div id="footer_deal"><a class="deal_link" href="mailto:wz20100519@.outlook.com" title="email"><i class="anzhiyufont anzhiyu-icon-envelope"></i></a><a class="deal_link" href="/atom.xml" title="RSS"><i class="anzhiyufont anzhiyu-icon-rss"></i></a><img class="footer_mini_logo" title="返回顶部" alt="返回顶部" onclick="anzhiyu.scrollToDest(0, 500)" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://unpkg.com/wz-blog@1.0.6/img/gif.gif" size="50px"/><a class="deal_link" target="_blank" rel="noopener" href="https://github.com/wangzhuo1024" title="Github"><i class="anzhiyufont anzhiyu-icon-github"></i></a><a class="deal_link" href="/copyright" title="CC"><i class="anzhiyufont anzhiyu-icon-copyright-line"></i></a></div><div id="workboard"><div id="runtimeTextTip"></div></div><div id="anzhiyu-footer"><div class="footer-group"><div class="footer-title">服务</div><div class="footer-links"><a class="footer-item" title="51la统计" target="_blank" rel="noopener" href="https://v6.51.la/">51la统计</a><a class="footer-item" title="十年之约" target="_blank" rel="noopener" href="https://www.foreverblog.cn/">十年之约</a><a class="footer-item" title="开往" target="_blank" rel="noopener" href="https://github.com/travellings-link/travellings">开往</a></div></div><div class="footer-group"><div class="footer-title">主题</div><div class="footer-links"><a class="footer-item" title="文档" href="/docs/">文档</a><a class="footer-item" title="源码" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu">源码</a><a class="footer-item" title="更新日志" href="/update/">更新日志</a></div></div><div class="footer-group"><div class="footer-title">导航</div><div class="footer-links"><a class="footer-item" title="即刻短文" href="/essay/">即刻短文</a><a class="footer-item" title="友链文章" href="/fcircle/">友链文章</a><a class="footer-item" title="留言板" href="/comments/">留言板</a></div></div><div class="footer-group"><div class="footer-title">协议</div><div class="footer-links"><a class="footer-item" title="隐私协议" href="/privacy/">隐私协议</a><a class="footer-item" title="Cookies" href="/cookies/">Cookies</a><a class="footer-item" title="版权协议" href="/copyright/">版权协议</a></div></div><div class="footer-group"><div class="footer-title-group"><div class="footer-title">友链</div><a class="random-friends-btn" id="footer-random-friends-btn" href="javascript:addFriendLinksInFooter();" title="换一批友情链接"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right"></i></a></div><div class="footer-links" id="friend-links-in-footer"></div></div></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/zh-cn" style="margin-inline:5px" data-title="博客框架为Hexo_v5.4.0" title="博客框架为Hexo_v5.4.0"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://unpkg.com/wz-blog@1.0.5/img/Frame-Hexo.svg" alt="博客框架为Hexo_v5.4.0"/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" data-title="本站项目由Github托管" title="本站项目由Github托管"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://unpkg.com/wz-blog@1.0.5/img/Github-Page-white.svg" alt="本站项目由Github托管"/></a><a class="github-badge" target="_blank" href="https://blog.anheyu.com/" style="margin-inline:5px" data-title="本站使用AnZhiYu主题" title="本站使用AnZhiYu主题"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://unpkg.com/wz-blog@1.0.5/img/Theme-AnZhiYu-2E67D3.svg" alt="本站使用AnZhiYu主题"/></a><a class="github-badge" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="margin-inline:5px" data-title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://unpkg.com/wz-blog@1.0.5/img/Copyright-BY-NC-SA.svg" alt="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"/></a></p></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2025 By <a class="footer-bar-link" href="/" title="wangzhuo" target="_blank">wangzhuo</a></div></div><div id="footer-type-tips"></div><div class="js-pjax"><script>function subtitleType () {
+  fetch('https://v1.hitokoto.cn')
+    .then(response => response.json())
+    .then(data => {
+      if (true) {
+        const from = '出自 ' + data.from
+        const sub = []
+        sub.unshift(data.hitokoto, from)
+        window.typed = new Typed('#footer-type-tips', {
+          strings: sub,
+          startDelay: 300,
+          typeSpeed: 150,
+          loop: true,
+          backSpeed: 50,
+        })
+      } else {
+        document.getElementById('footer-type-tips').innerHTML = data.hitokoto
+      }
+    })
+}
+
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.cbd.int/typed.js@2.1.0/dist/typed.umd.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}
+</script></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a><a class="footer-bar-link cc" href="/copyright" title="cc协议"><i class="anzhiyufont anzhiyu-icon-copyright-line"></i><i class="anzhiyufont anzhiyu-icon-creative-commons-by-line"></i><i class="anzhiyufont anzhiyu-icon-creative-commons-nc-line"></i><i class="anzhiyufont anzhiyu-icon-creative-commons-nd-line"></i></a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">1</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" href="https://wangzhuo1024.github.io/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/link/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 友人帐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/comments/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/?id=8894576098&amp;server=netease"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐馆</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/bangumi/"><i class="anzhiyufont anzhiyu-icon-bilibili faa-tada" style="font-size: 0.9em;"></i><span> 追番页</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/air-conditioner/"><i class="anzhiyufont anzhiyu-icon-fan faa-tada" style="font-size: 0.9em;"></i><span> 小空调</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 闲言碎语</span></a></li><li><a class="site-page child faa-parent animated-hover" href="javascript:toRandomPost()"><i class="anzhiyufont anzhiyu-icon-shoe-prints1 faa-tada" style="font-size: 0.9em;"></i><span> 随便逛逛</span></a></li></ul></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 0.88rem; color: rgb(101, 94, 156);">测试<sup>1</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="8894576098" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random" volume="0.7"></meting-js></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;null&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.cbd.int/pangu@4.0.7/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("07/11/2025 19:30:09"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2025 By 安知鱼 V1.6.14",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 wangzhuo 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async src="/anzhiyu/random.js"></script><script async="async">(function () {
+  var grt = new Date("07/11/2025 19:30:09"); //设置网站上线时间
+  var now = new Date();
+  var dnum;
+  var hnum;
+  var mnum;
+  var snum;
+  var nowHour;
+
+  // 计算并更新天数、小时数、分钟数和秒数
+  function updateTime() {
+    now = new Date(); // 更新 now 的值
+    nowHour = now.getHours(); // 更新 nowHour 的值
+    var days = (now - grt) / 1000 / 60 / 60 / 24;
+    dnum = Math.floor(days);
+    var hours = (now - grt) / 1000 / 60 / 60 - 24 * dnum;
+    hnum = Math.floor(hours);
+    if (String(hnum).length == 1) {
+      hnum = "0" + hnum;
+    }
+    var minutes = (now - grt) / 1000 / 60 - 24 * 60 * dnum - 60 * hnum;
+    mnum = Math.floor(minutes);
+    if (String(mnum).length == 1) {
+      mnum = "0" + mnum;
+    }
+    var seconds = (now - grt) / 1000 - 24 * 60 * 60 * dnum - 60 * 60 * hnum - 60 * mnum;
+    snum = Math.round(seconds);
+    if (String(snum).length == 1) {
+      snum = "0" + snum;
+    }
+  }
+
+  // 更新网页中显示的网站运行时间
+  function updateHtml() {
+    const footer = document.getElementById("footer");
+    if (!footer) return
+    let currentTimeHtml = "";
+    if (nowHour < 18 && nowHour >= 9) {
+      // 如果是上班时间，默认就是"安知鱼-上班摸鱼中.svg"图片，不需要更改
+      currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+    } else {
+      // 如果是下班时间，插入"安知鱼-下班啦.svg"图片
+      let img = document.querySelector("#workboard .workSituationImg");
+      if (img != null) {
+        img.src = "";
+        img.title = "";
+        img.alt = "";
+      }
+
+      currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+      
+    }
+
+    // 哈雷彗星回归倒计时
+    const halleyDate = new Date('2061-07-28T00:00:00Z');
+    const nowLocal = new Date();
+    let diff = halleyDate - nowLocal;
+
+    let days = Math.floor(diff / 1000 / 60 / 60 / 24);
+    let hours = Math.floor((diff / 1000 / 60 / 60) % 24);
+    let minutes = Math.floor((diff / 1000 / 60) % 60);
+    let seconds = Math.floor((diff / 1000) % 60);
+    currentTimeHtml += `<br><span id='halleyCountdown'>距离哈雷彗星回归还有 ${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒 🌠</span>`;
+
+    if (document.getElementById("runtimeTextTip")) {
+      document.getElementById("runtimeTextTip").innerHTML = currentTimeHtml;
+    }
+  }
+
+  setInterval(() => {
+    updateTime();
+    updateHtml();
+  }, 1000);
+})();</script><div class="js-pjax"><input type="hidden" name="page-type" id="page-type" value="page"></div><script async data-pjax src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.1/bubble/bubble.js"></script><script>var visitorMail = "";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/dist/fireworks.min.js"></script><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
