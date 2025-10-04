@@ -22992,6 +22992,7 @@ div#archive {
 [data-theme="light"] #footer-wrap {
   color: var(--font-color);
 }
+
 #footer-wrap .anzhiyufont.anzhiyu-icon-heartbeat {
   transition: 0.3s;
   animation: heartbeat-bounce 2s ease-in-out infinite;
@@ -23002,7 +23003,9 @@ div#archive {
   line-height: 1;
   text-rendering: auto;
 }
+
 @keyframes heartbeat-bounce {
+
   0%,
   100% {
     transform: scale(1);
@@ -23012,18 +23015,19 @@ div#archive {
   30% {
     transform: scale(0.9);
   }
+
   20%,
   40%,
   60%,
   80% {
     transform: scale(1.1);
   }
+
   50%,
   70% {
     transform: scale(1.1);
   }
 }
-
 /* 顶部样式 */
 .fcircle_page .author-content.fcirclePage {
   height: 19rem;
